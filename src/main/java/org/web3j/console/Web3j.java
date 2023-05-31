@@ -12,7 +12,21 @@
  */
 package org.web3j.console;
 
+
+import org.web3j.console.wrapper.subcommand.SolidityGenerateCommand;
+
+/**
+ * web3j command
+ * https://docs.web3j.io/4.8.7/command_line_tools/
+ */
 public class Web3j {
+    /**
+     * @see Web3jCommand#parse()
+     * @see SolidityGenerateCommand#run()
+     * @see @see org.web3j.codegen.SolidityFunctionWrapperGenerator#generate()
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         System.setProperty("picocli.version.name.0", "-v");
         final int result = new Web3jCommand(System.getenv(), args).parse();

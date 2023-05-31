@@ -29,7 +29,8 @@ public class ProgressCounter {
         Thread th =
                 new Thread(
                         () -> {
-                            String anim = "|/―\\";
+//                            String anim = "|/―\\";
+                            String anim = "\\";
                             try {
                                 System.out.write("\r|".getBytes());
                                 int current = 0;
