@@ -18,6 +18,7 @@ public class SolidityFunctionWrapperGeneratorTest {
      * @see SolidityFunctionWrapperGenerator#generate()
 //     * @see SolidityFunctionWrapperGenerator.PicocliRunner#run()
 //     * @see ParameterizedTypeName#get(java.lang.reflect.ParameterizedType, java.util.Map)
+     * @see com.squareup.javapoet.TypeName#get(java.lang.reflect.Type, java.util.Map)
      * https://docs.web3j.io/4.8.7/smart_contracts/construction_and_deployment/
      * org.web3j.codegen.SolidityFunctionWrapperGenerator -b /path/to/<smart-contract>.bin -a /path/to/<smart-contract>.abi -o /path/to/src/main/java -p com.your.organisation.name
      */
