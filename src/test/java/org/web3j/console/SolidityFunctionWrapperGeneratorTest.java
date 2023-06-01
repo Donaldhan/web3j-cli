@@ -40,5 +40,6 @@ public class SolidityFunctionWrapperGeneratorTest {
 //        String packageDir = "--package=" + dir + "\\contract";
         String[] args = new String[]{"solidity","generate",  binFile, abiFile, outputDir, packageDir};
         SolidityFunctionWrapperGenerator.main(args);
+
     }
 }

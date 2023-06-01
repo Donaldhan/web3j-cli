@@ -5,6 +5,7 @@
 * org.web3j.codegen.SolidityFunctionWrapper.buildStructTypes
 * org.web3j.codegen.SolidityFunctionWrapper.extractStructs
 * org.web3j.codegen.SolidityFunctionWrapper.addParameters(com.squareup.javapoet.MethodSpec.Builder, java.util.List<org.web3j.protocol.core.methods.response.AbiDefinition.NamedType>, boolean)
+* org.web3j.codegen.SolidityFunctionWrapper.buildParameterTypes
 * ParameterizedTypeName#get(java.lang.reflect.ParameterizedType, java.util.Map)
 * com.squareup.javapoet.TypeName#get(java.lang.reflect.Type, java.util.Map)
 # com.squareup.javapoet.ParameterizedTypeName cannot be cast to com.squareup.javapoet.ClassName
