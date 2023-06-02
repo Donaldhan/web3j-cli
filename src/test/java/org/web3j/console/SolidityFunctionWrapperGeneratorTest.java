@@ -25,8 +25,8 @@ public class SolidityFunctionWrapperGeneratorTest {
     @Test
     public void generate() {
         String dir = "F:/github/hardhat-usage";
-        String binFilePath = dir+"/build/contracts/ComplexType.bin";
-        String abiFilePath = dir+"/build/contracts/ComplexType.abi";
+        String binFilePath = dir+"/build/contracts/SimpleStruct.bin";
+        String abiFilePath = dir+"/build/contracts/SimpleStruct.abi";
         String binFile = "--binFile=" + binFilePath;
         String abiFile = "--abiFile=" + abiFilePath;
         String outputDir = "--outputDir=" + dir + "/java";
